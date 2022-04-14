@@ -1,0 +1,648 @@
+{
+    "nodes": [
+        {
+          "name": "天津港8·12事故",
+          "x": 550,
+          "y": 300,
+          "category": 1
+        },
+        {
+          "name": "爆炸",
+          "x": 700,
+          "y": 300,
+          "category": 2
+        },
+        {
+          "name": "瑞海公司",
+          "x": 550,
+          "y": 150,
+          "category": 3
+        },
+        {
+          "name": "危险品仓库",
+          "x": 550,
+          "y": 50,
+          "category": 3
+        },
+        {
+          "name": "集装箱",
+          "x": 400,
+          "y": 300,
+          "category": 4
+        },
+        {
+          "name": "硝化棉",
+          "x": 450,
+          "y": 200,
+          "category": 5
+        },      
+        {
+          "name": "硝酸铵",
+          "x": 650,
+          "y": 200,
+          "category": 5
+        }, 
+        {
+          "name": "乙醇",
+          "x": 450,
+          "y": 400,
+          "category": 5
+        },  
+        {
+          "name": "天津滨海新区塘沽开发区",
+          "x": 650,
+          "y": 125,
+          "category": 3
+        }, 
+        {
+          "name": "仓储阶段",
+          "x": 650,
+          "y": 400,
+          "category": 6
+        },
+        {
+          "name": "特别重大生产安全责任事故",
+          "x": 550,
+          "y": 450,
+          "category": 7
+        },
+        {
+          "name": "河北三木纤维素有限公司",
+          "x": 450,
+          "y": 125,
+          "category": 3
+        }, 
+        {
+          "name": "衡水新东方化工有限公司",
+          "x": 500,
+          "y": 250,
+          "category": 3
+        },
+        {
+          "name": "硝酸铵分解速度不断加快",
+          "x": 1000,
+          "y": 200,
+          "category": 8
+        },
+        {
+          "name": "硝酸铵达到爆炸温度",
+          "x": 1000,
+          "y": 400,
+          "category": 9
+        },
+        {
+          "name": "火焰蔓延作用",
+          "x": 800,
+          "y": 150,
+          "category": 10
+        },
+        {
+          "name": "爆炸冲击波影响",
+          "x": 800,
+          "y": 450,
+          "category": 10
+        },
+        {
+          "name": "温度持续升高",
+          "x": 900,
+          "y": 300,
+          "category": 8
+        },
+        {
+          "name": "火焰蔓延",
+          "x": 900,
+          "y": 450,
+          "category": 10
+        },
+        {
+          "name": "危险化学品相继被引燃",
+          "x": 850,
+          "y": 100,
+          "category": 11
+        },
+        {
+          "name": "硝化棉大面积燃烧",
+          "x": 750,
+          "y": 50,
+          "category": 11
+        },  
+        {
+          "name": "集装箱破损",
+          "x": 950,
+          "y": 50,
+          "category": 12
+        },        
+        {
+          "name": "箱内温度、压力升高",
+          "x": 1000,
+          "y": 100,
+          "category": 8
+        },  
+        {
+          "name": "周围硝化棉燃烧，放出大量气体",
+          "x": 900,
+          "y": 200,
+          "category": 11
+        },  
+        {
+          "name": "硝化棉达到自燃温度",
+          "x": 1000,
+          "y": 300,
+          "category": 9
+        },
+        {
+          "name": "硝化棉自燃",
+          "x": 800,
+          "y": 250,
+          "category": 11
+        },
+        {
+          "name": "集装箱散热条件差",
+          "x": 800,
+          "y": 350,
+          "category": 12
+        },
+        {
+          "name": "高温环境",
+          "x": 1000,
+          "y": 600,
+          "category": 8
+        },
+        {
+          "name": "硝化棉加速分解",
+          "x": 1000,
+          "y": 500,
+          "category": 11
+        }, 
+        {
+          "name":"释放大量热量",
+          "x": 900,
+          "y": 500,
+          "category": 11
+        },
+        {
+          "name": "硝化棉局部干燥",
+          "x": 1100,
+          "y": 400,
+          "category": 12
+        }, 
+        {
+          "name": "硝化棉湿润剂散失",
+          "x": 1100,
+          "y": 500,
+          "category": 11
+        }, 
+        {
+          "name": "硝化棉包装破损",
+          "x": 1100,
+          "y": 300,
+          "category": 12
+        }, 
+        {
+          "name": "硝化棉酒棉",
+          "x": 800,
+          "y": 550,
+          "category": 13
+        }, 
+        {
+          "name": "装卸作业中存在野蛮操作问题",
+          "x": 1200,
+          "y": 300,
+          "category": 12
+        },  
+        {
+          "name": "包装绳扎口",
+          "x": 1200,
+          "y": 450,
+          "category": 12
+        },  
+      ],
+    "links": [
+        {
+          "source": "天津港8·12事故",
+          "target": "爆炸",
+          "name": "type",
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "天津港8·12事故",
+          "target": "瑞海公司",
+          "name": "manufactory",
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "天津港8·12事故",
+          "target": "集装箱",
+          "name": "device",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "天津港8·12事故",
+          "target": "硝化棉",
+          "name": "ChemicalSubstance",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "天津港8·12事故",
+          "target": "硝酸铵",
+          "name": "ChemicalSubstance",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "天津港8·12事故",
+          "target": "乙醇",
+          "name": "ChemicalSubstance",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "天津港8·12事故",
+          "target": "仓储阶段",
+          "name": "status",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "天津港8·12事故",
+          "target": "特别重大生产安全责任事故",
+          "name": "classification",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "天津港8·12事故",
+          "target": "硝酸铵达到爆炸温度",
+          "name": "Initiator Factor",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "天津港8·12事故",
+          "target": "硝酸铵分解速度不断加快",
+          "name": "Initiating Event",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "火焰蔓延作用",
+          "target": "天津港8·12事故",
+          "name": "Exposure",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "爆炸冲击波影响",
+          "target": "天津港8·12事故",
+          "name": "Exposure",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "天津港8·12事故",
+          "target": "温度持续升高",
+          "name": "Initiating Condition",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "温度持续升高",
+          "target": "火焰蔓延",
+          "name": "Exposure",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "火焰蔓延",
+          "target": "危险化学品相继被引燃",
+          "name": "Initiating Event",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "危险化学品相继被引燃",
+          "target": "硝化棉大面积燃烧",
+          "name": "Initiating Event",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "硝化棉大面积燃烧",
+          "target": "集装箱破损",
+          "name": "Hazard",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "集装箱破损",
+          "target": "箱内温度、压力升高",
+          "name": "Hazard TruthMaker",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "箱内温度、压力升高",
+          "target": "周围硝化棉燃烧，放出大量气体",
+          "name": "Initiating Event",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "周围硝化棉燃烧，放出大量气体",
+          "target": "硝化棉自燃",
+          "name": "Initiating Event",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "周围硝化棉燃烧，放出大量气体",
+          "target": "硝化棉达到自燃温度",
+          "name": "Initiating Factor",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "硝化棉自燃",
+          "target": "释放大量热量",
+          "name": "Hazard",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "释放大量热量",
+          "target": "硝化棉加速分解",
+          "name": "Initiating Event",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "硝化棉加速分解",
+          "target": "高温环境",
+          "name": "Initiating Condition",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "加速分解反应",
+          "target": "硝化棉局部干燥",
+          "name": "Hazard",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "硝化棉局部干燥",
+          "target": "硝化棉湿润剂散失",
+          "name": "Initiating Event",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "硝化棉湿润剂散失",
+          "target": "硝化棉包装破损",
+          "name": "Hazard",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "硝化棉湿润剂散失",
+          "target": "温度升高",
+          "name": "Initiating Condition",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "硝化棉湿润剂散失",
+          "target": "硝化棉酒棉",
+          "name": "Hazard Element",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "硝化棉包装破损",
+          "target": "装卸作业中存在野蛮操作问题",
+          "name": "Hazard TruthMaker",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "硝化棉包装破损",
+          "target": "包装绳扎口",
+          "name": "Hazard TruthMaker",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "瑞海公司",
+          "target": "天津滨海新区塘沽开发区",
+          "name": "location",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "瑞海公司",
+          "target": "危险品仓库",
+          "name": "type",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "瑞海公司",
+          "target": "河北三木纤维素有限公司",
+          "name": "Collaborators",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        },
+        {
+          "source": "瑞海公司",
+          "target": "衡水新东方化工有限公司",
+          "name": "Collaborators",  
+          "label": {
+            "show": true
+          },
+          "lineStyle": {
+            "curveness": 0.2
+          }
+        }
+        ],
+    "categories": [
+      {
+        "name": "事故"
+      },
+      {
+        "name": "事故类型"
+      },
+      {
+        "name": "公司信息"
+      },
+      {
+        "name": "设备信息"
+      },
+      {
+        "name": "化学品信息"
+      },
+      {
+        "name": "发生阶段"
+      },
+      {
+        "name": "事故等级"
+      },
+      {
+        "name": "事故引发条件"
+      },
+      {
+        "name": "事故发生要素"
+      },
+      {
+        "name": "接触条件"
+      },
+      {
+        "name": "引发事件"
+      },
+      {
+        "name": "安全隐患"
+      },
+      {
+        "name": "隐患源"
+      }
+    ]
+  }
